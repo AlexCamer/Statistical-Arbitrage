@@ -5,8 +5,6 @@ from broker import *
 
 
 
-
-
 # read in data for back test
 df = pd.read_csv('Cache/prices.csv', index_col=0)
 with open('Cache/sectors.json', 'r') as json_file:
