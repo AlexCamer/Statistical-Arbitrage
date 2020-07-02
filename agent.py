@@ -8,8 +8,6 @@ from kalman_filter import *
 
 
 
-
-
 # cointegrates two series, returns intercept and slope
 def cointegrate(series_1, series_2):
     regressor = LinearRegression()
@@ -28,8 +26,6 @@ def get_reversion_speed(series):
     b = regressor.coef_[0]
     k = - np.log(b) if b > 0 else 0
     return k
-
-
 
 
 
