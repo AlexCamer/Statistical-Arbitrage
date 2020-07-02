@@ -3,8 +3,6 @@ from sklearn.linear_model import LinearRegression
 
 
 
-
-
 # Kalman filter class derived from (Ernest Chan, 2013)
 class Kalman_Filter():
 
