@@ -3,8 +3,6 @@ import pandas as pd
 
 
 
-
-
 # class for testing trading models 
 class Broker:
 
